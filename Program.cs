@@ -36,13 +36,7 @@ namespace Reka
             Console.WriteLine("Протяженность:{0} ", this.Protyas);
         }
 
-        static void Main(string[] args)
-        {
-            Reka scr = new Reka();
-            scr.Input();
-            scr.Print();
-            Console.ReadKey();
-        }
+    
 
     }
 }
