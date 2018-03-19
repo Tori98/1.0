@@ -14,12 +14,7 @@ namespace Reka
         public double PloshBas { get; set; }
 
         public double Protyas { get; set; }
-        public Reka()
-        {
-            this.Name = "";
-            this.PloshBas = 0;
-            this.Protyas = 0;
-        }
+ 
 
 
         public void Input()
@@ -36,7 +31,13 @@ namespace Reka
             Console.WriteLine("Протяженность:{0} ", this.Protyas);
         }
 
-    
+        static void Main(string[] args)
+        {
+            Reka scr = new Reka();
+            scr.Input();
+            scr.Print();
+            Console.ReadKey();
+        }
 
     }
 }
